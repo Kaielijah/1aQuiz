@@ -1,5 +1,5 @@
 body{
-background-color: rgba(165, 216, 255,1);
+background-color: rgba(235, 148, 134,1);
 top:0;
 left:0;
 right:0;
@@ -13,7 +13,7 @@ height: 100%;
 margin:0 auto;
 margin-top: 100px;
 padding: 10px 10px 0 10px;
-background-color: rgba(236, 254, 232,0.5);
+background-color: rgba(236, 254, 232,1);
 border: 1px solid white;
 border-radius: 15px;
 }
@@ -26,6 +26,9 @@ margin: 0 auto;
   height: 100px;
   padding: 10px 80px 80px 80px;
   text-align: center;
+  font-family: 'Bitter', serif;
+  font-weight: 700;
+  font-size: 20px;
 }
 header{
 text-align: center;
@@ -47,22 +50,44 @@ button p:hover{
 color: white;
 }
 
-h1{text-align: center;}
+h1{
+  text-align: center;
+  font-family: 'Fugaz One', cursive;
+
+}
 
 #pboard{
   height: 100px;
   margin: 0 auto;
   padding: 50px 50px 0 50px;
   text-align: center;
-
+  font-family: 'Bitter', serif;
+  font-size: 20px;
 }
 
 #p1{
 float: left;
 height:20px
-
   }
 #p2{
   float:right;
   height: 20px;
+}
+
+
+@media only screen and (max-width: 500px) {
+    body {
+        background-color: lightblue;
+    }
+    #containerz{
+      height: 600px;
+        }
+    #button1{
+      margin-top:120px;
+
+    }
+    #Qmid{
+        font-size: 20px;
+        padding: 5px 10px 40px 10px;
+    }
 }

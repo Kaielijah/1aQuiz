@@ -16,7 +16,7 @@ var questionnaire = [
    question: "Leonardo da Vinci's parents weren't married",
    answer: "true",
  }, {
-   question: "Leonardo da Vinci has never received formal education beyond basic reading, writing and math.",
+   question: "Da Vinci has never received formal education beyond basic reading, writing and math.",
    answer: "true",
  }, {
    question: "Leonardo da Vinci died at age 71.",
